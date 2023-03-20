@@ -1,0 +1,131 @@
+body{
+   
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden; 
+  min-height: 100%; 
+  
+} 
+
+.navbar_principal {
+
+  background:  linear-gradient(26.99deg, #BF8A7E -38.03%, rgba(101, 54, 158, 0) 137.84%);
+ 
+}
+
+.texto_principal{
+
+  margin-top: 40px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.logo{
+
+  width: 100px;
+  height: 100px;
+  
+}
+
+.acordeon{
+  text-align:center;
+}
+
+.carrito{
+  float: right;
+}
+
+.li{
+list-style: none;
+}
+
+.dropdown-menu:hover{
+  background: linear-gradient(
+    180deg,
+    #F2CBC2 -18.18%,
+    rgba(217, 217, 217, 0) 
+);
+}
+
+.nombre_tienda{
+  margin: 20px;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+ 
+  
+}
+
+:hover .nombre_tienda{
+  color: black;
+  text-decoration: none;
+
+}
+
+.btn_principal{
+
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background: linear-gradient(
+      180deg,
+      #D9B5A0 -18.18%,
+      rgba(217, 217, 217, 0) 
+    );
+  color: black;
+  border: none;
+}
+
+.btn_principal:hover{
+
+  background: linear-gradient(
+      180deg,
+      #F2CBC2 -18.18%,
+      rgba(217, 217, 217, 0) 
+  );
+}
+.card{
+  display: flex;
+  margin:10px ;
+  padding: 10px;
+  width: 18rem;
+  align-items: center;
+
+}
+
+
+.item_list{
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 2fr 2fr;
+  justify-content: center;
+  justify-items: center;
+  margin: 35px;
+  padding: 15px;
+}
+
+.btn-contador{
+  background-color:  #D9B5A0;
+  border: #BF8A7E;
+}
+
+.btn-contador:hover{
+  background-color:  #D9B5A0;
+  border: #BF8A7E;
+  
+}
+
+.numero{
+ display: flex;
+ color: black;
+
+}
+
+.btn_principal_2{
+  width: 60px;
+  height: 55px;
+  text-align: center;
+  border: none;
+ 
+}
+footer {
+  margin-top: auto;
+  min-height: 16vh;
+  background: background linear-gradient(26.99deg, #BF8A7E -38.03%, rgba(101, 54, 158, 0) 137.84%); }
